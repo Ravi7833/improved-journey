@@ -8,4 +8,4 @@ ADD . /var/www/html
 RUN apt-get clean
 EXPOSE 80
 CMD ["apache2ctl","-D","FOREGROUND"]
-© 2021 GitHub, Inc.
+
